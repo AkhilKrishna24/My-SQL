@@ -2,22 +2,13 @@
 
 My SQL Version
 
-```shell
-mysql -V
-```
-
-or
-
-```shell
-mysql --version
-```
-
-```shell
-Microsoft Windows [Version 10.0.22631.4391]
-(c) Microsoft Corporation. All rights reserved.
-
-C:\Users\acer>mysql -u root -p
-Enter password:
-```
+`mysql -V` or `mysql --version`
 
 ![Version](./img/mysql%20-V.png)
+
+My SQL in CMD
+`mysql -u root -p`
+
+![Version](./img/mysql%20-u%20root%20-p.png)
+
+![Version](./img/SHOW%20DATABASES.png)
