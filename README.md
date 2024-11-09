@@ -11,4 +11,6 @@ My SQL in CMD
 
 ![Version](./img/mysql%20-u%20root%20-p.png)
 
+`SHOW DATABASES;`
+
 ![Version](./img/SHOW%20DATABASES.png)
