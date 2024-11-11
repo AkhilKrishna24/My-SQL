@@ -1,4 +1,6 @@
-.env  # system Enviroment for save API and Password
-venv  # vartual Enviroment
-.vscode
-.ipynb_checkpoints
+# system Enviroment for save API and Password
+.env  
+# vartual Enviroment
+.venv  
+.vscode 
+# .ipynb_checkpoints
