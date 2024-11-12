@@ -1,3 +1,10 @@
+<pre style="color: #fc03d7;">                       _____           _ _
+                      |  __ \         | | |
+                      | |__) |__ _  __| | |__   ___
+                      |  _  // _` |/ _` | '_ \ / _ \
+                      | | \ \ (_| | (_| | | | |  __/
+                      |_|  \_\__,_|\__,_|_| |_|\___| </pre>
+
 # My-SQL
 
 # MySQL Data Types
@@ -8,8 +15,8 @@
                                  String                Numeric            Date and Time
 
 |                                         | Data type                                    | Description                                                                                                                                                                                                                                                             |
-| --------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <td rowspan="14">String</td>            | <p style="color: #399e24;">CHAR(size) </P>   | A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1                                                                                         |
+| :-------------------------------------: | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|      <td rowspan="14">String</td>       | <p style="color: #399e24;">CHAR(size) </P>   | A FIXED length string (can contain letters, numbers, and special characters). The size parameter specifies the column length in characters - can be from 0 to 255. Default is 1                                                                                         |
 |                                         | <p style="color: #399e24;">VARCHAR(size)</p> | A VARIABLE length string (can contain letters, numbers, and special characters). The size parameter specifies the maximum column length in characters - can be from 0 to 65535                                                                                          |
 |                                         | BINARY(size)                                 | Equal to CHAR(), but stores binary byte strings. The size parameter specifies the column length in bytes. Default is 1                                                                                                                                                  |
 |                                         | VARBINARY(size)                              | Equal to VARCHAR(), but stores binary byte strings. The size parameter specifies the maximum column length in bytes.                                                                                                                                                    |
@@ -23,7 +30,7 @@
 |                                         | LONGBLOB                                     | For BLOBs (Binary Large OBjects). Holds up to 4,294,967,295 bytes of data                                                                                                                                                                                               |
 |                                         | ENUM(val1, val2, val3, ...)                  | A string object that can have only one value, chosen from a list of possible values. You can list up to 65535 values in an ENUM list. If a value is inserted that is not in the list, a blank value will be inserted. The values are sorted in the order you enter them |
 |                                         | SET(val1, val2, val3, ...)                   | A string object that can have 0 or more values, chosen from a list of possible values. You can list up to 64 values in a SET list                                                                                                                                       |
-| <td rowspan="15">Numeric</td>           | BIT(size)                                    | A bit-value type. The number of bits per value is specified in size. The size parameter can hold a value from 1 to 64. The default value for size is 1.                                                                                                                 |
+|      <td rowspan="15">Numeric</td>      | BIT(size)                                    | A bit-value type. The number of bits per value is specified in size. The size parameter can hold a value from 1 to 64. The default value for size is 1.                                                                                                                 |
 |                                         | TINYINT(size)                                |                                                                                                                                                                                                                                                                         |
 |                                         | BOOL                                         |                                                                                                                                                                                                                                                                         |
 |                                         | BOOLEAN                                      |                                                                                                                                                                                                                                                                         |
@@ -82,3 +89,15 @@ CREATE TABLE <table_name> (
    ....
 );
 ```
+
+# MySQL Constraints
+
+|              | Description                                    |
+| ------------ | ---------------------------------------------- |
+| NOT NULL     | Ensures that a column cannot have a NULL value |
+| UNIQUE       |                                                |
+| PRIMARY KEY  |                                                |
+| FOREIGN KEY  |                                                |
+| CHECK        |                                                |
+| DEFAULT      |                                                |
+| CREATE INDEX |                                                |
