@@ -1,4 +1,4 @@
-<pre style="color: #fc03d7; width: auto; margin: 0 auto; ">                       _____           _ _
+<pre style="color: #fc03d7;">                       _____           _ _
                       |  __ \         | | |
                       | |__) |__ _  __| | |__   ___
                       |  _  // _` |/ _` | '_ \ / _ \
