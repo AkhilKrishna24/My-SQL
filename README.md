@@ -5,6 +5,14 @@
                       | | \ \ (_| | (_| | | | |  __/
                       |_|  \_\__,_|\__,_|_| |_|\___| </pre>
 
+# DBMS (Database Management System)
+
+## DDL
+
+## DML
+
+## DCL
+
 # SQL
 
 SQL is used to insert, search, update, and delete database records.
