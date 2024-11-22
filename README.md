@@ -5,6 +5,45 @@
                       | | \ \ (_| | (_| | | | |  __/
                       |_|  \_\__,_|\__,_|_| |_|\___| </pre>
 
+# Databases
+
+A database is an organized collection of structured information or data, typically stored electronically. Databases are used to store, manage, and retrieve data efficiently.
+
+## Types of Databases
+
+### [Relational Databases (RDBMS)](#dbms-database-management-system)
+
+These databases store data in tables with rows and columns. They use SQL (Structured Query Language) for querying and managing data.
+
+Example: [MySQL](#my-sql), PostgreSQL, SQLite
+
+### NoSQL Databases
+
+These are used for unstructured or semi-structured data and are more flexible than relational databases.
+
+Example: MongoDB, Cassandra, Redis
+
+### In-Memory Databases
+
+These store data in the system's memory (RAM) for quick access.
+
+Example: Redis, Memcached
+
+### Cloud Databases
+
+These databases are hosted on a cloud platform.
+
+Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
+
+## Key Concepts
+
+- Tables: The structure in which data is stored in a relational database.
+- Rows/Records: Individual entries in a table.
+- Columns/Fields: Specific categories of data in a table.
+- Primary Key: A unique identifier for records in a table.
+- Foreign Key: A reference to the primary key of another table, used to establish relationships between tables.
+- [SQL](#sql) (Structured Query Language): Used to interact with relational databases to insert, update, delete, and query data.
+
 # DBMS (Database Management System)
 
 ## DDL
@@ -78,7 +117,7 @@ DROP TABLE <table_name>;
 
 ## Rename columns or the table
 
-## Change table [constraints](#MySQLConstraints)
+## Change table [constraints](#mysql-constraints)
 
 ## Adjust other table-level properties
 
