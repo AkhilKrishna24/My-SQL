@@ -44,19 +44,83 @@ Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
 - Foreign Key: A reference to the primary key of another table, used to establish relationships between tables.
 - [SQL](#sql) (Structured Query Language): Used to interact with relational databases to insert, update, delete, and query data.
 
+## Common Database Operations (CRUD)
+
+- Create: Creating a new table or database.
+- Read: Retrieving data from a table.
+- Update: Modifying existing data in a table.
+- Delete: Removing data from a table.
+
+## Database layers
+
+### Physical Layer (Data Storage Layer)
+
+### Logical Layer (Data Model Layer)
+
+### View Layer (User Interface Layer)
+
+## Database Architecture Models
+
+- Three-Tier Architecture: Often used in modern web applications, this involves three distinct layers:
+  - Presentation Layer: The user interface (UI) or frontend.
+  - Application Layer: The backend logic or application layer.
+  - Data Layer: The database server and DBMS.
+- Two-Tier Architecture: In simpler architectures, where the application and database are often on the same system or have a direct connection.
+
+      +------------------------+
+      |   View Layer (User)    |
+      |  (User Interface/API)  |
+      +------------------------+
+                 |
+      +------------------------+
+      |  Logical Layer (Data   |
+      |   Model/Schema)        |
+      |   (Tables, Views, etc.)|
+      +------------------------+
+                 |
+      +------------------------+
+      | Physical Layer (Data   |
+      |   Storage)             |
+      |  (Disk, Indexes, etc.) |
+      +------------------------+
+
 # DBMS (Database Management System)
 
-## DDL
+A DBMS is software that manages and controls access to a database. It provides an interface between the user/application and the database, allowing data to be stored, retrieved, updated, and deleted. The DBMS handles tasks like data integrity, concurrency control, and security.
 
-## DML
-
-## DCL
-
-# SQL
+## SQL
 
 SQL is used to insert, search, update, and delete database records.
 
+### SQL Commands are mainly categorized into five categories:
+
+- DDL – Data Definition Language
+- DQL – Data Query Language
+- DML – Data Manipulation Language
+- DCL – Data Control Language
+- TCL – Transaction Control Language
+
+      SQL Commands
+      DDL DML DQL TCL DCL
+      CREATE
+      DROP
+      ALTER
+      TRUNCATE
+      COMMENT
+      RENAME
+
 # My-SQL
+
+- Type: Relational Database Management System (RDBMS).
+- Usage: Commonly used for larger, more complex applications, including web applications.
+- Features:
+  - Supports large databases and high-performance use cases.
+  - Multi-user database with access control, meaning multiple users can connect simultaneously.
+  - Requires a separate server to run.
+  - Supports advanced SQL features like stored procedures, views, and triggers.
+  - Used in many large-scale applications, such as WordPress, Facebook, and others.
+- Use Cases: Best for applications that require heavy querying and complex transactions, like web services, e-commerce platforms, and content management systems.
+- Popular Frameworks Using MySQL: PHP (with MySQLi or PDO), Django, Ruby on Rails.
 
 # MySQL [Data Types](./Data%20Types.md)
 
