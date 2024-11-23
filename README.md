@@ -13,7 +13,7 @@ A database is an organized collection of structured information or data, typical
 
 ### Relational Databases (RDBMS)
 
-These databases store data in tables with rows and columns. They use SQL (Structured Query Language) for querying and managing data.
+These databases store data in tables with rows and columns. They use [SQL (Structured Query Language)](#sql) for querying and managing data.
 
 Example: [MySQL](#my-sql), PostgreSQL, SQLite
 
@@ -95,6 +95,12 @@ SQL is used to insert, search, update, and delete database records.
 ### SQL Commands are mainly categorized into five categories:
 
 - DDL Data Definition Language
+  - [CREATE](./CREATE.md)
+  - DROP
+  - ALTER
+  - TRUNCATE
+  - RENAME
+  - COMMENT
 - DQL Data Query Language
 - DML Data Manipulation Language
 - DCL Data Control Language
