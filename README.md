@@ -11,7 +11,7 @@ A database is an organized collection of structured information or data, typical
 
 ## Types of Databases
 
-### [Relational Databases (RDBMS)](#dbms-database-management-system)
+### Relational Databases (RDBMS)
 
 These databases store data in tables with rows and columns. They use SQL (Structured Query Language) for querying and managing data.
 
@@ -115,8 +115,6 @@ SQL is used to insert, search, update, and delete database records.
          +>RENAME       +->EXPLAIN PLAN
          +>COMMENT      +->LOCK
 
-
-
 # My-SQL
 
 - Type: Relational Database Management System (RDBMS).
@@ -138,56 +136,6 @@ SQL is used to insert, search, update, and delete database records.
                                  String                Numeric            Date and Time
 
 ---
-
-# Database Creating and Deleting
-
-## CREATE DATABASE
-
-```sql
-CREATE DATABASE <databasename>;
-```
-
-## DROP DATABASE
-
-```sql
-DROP DATABASE <databasename>;
-```
-
-# Table Creating and Deleting
-
-## Create Table
-
-```sql
-CREATE TABLE <table_name> (
-    column1 datatype,
-    column2 datatype,
-    column3 datatype,
-   ....
-);
-```
-
-## Create Table Using Another Table
-
-```sql
-CREATE TABLE new_table_name AS
-   SELECT column1, column2,...
-   FROM existing_table_name
-   WHERE ....;
-```
-
-## DROP TABLE
-
-```sql
-DROP TABLE <table_name>;
-```
-
-# ALTER TABLE
-
-## Modify columns
-
-## Add or remove columns
-
-## Rename columns or the table
 
 ## Change table [constraints](#mysql-constraints)
 
