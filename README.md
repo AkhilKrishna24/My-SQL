@@ -94,11 +94,11 @@ SQL is used to insert, search, update, and delete database records.
 
 ### SQL Commands are mainly categorized into five categories:
 
-- DDL – Data Definition Language
-- DQL – Data Query Language
-- DML – Data Manipulation Language
-- DCL – Data Control Language
-- TCL – Transaction Control Language
+- DDL Data Definition Language
+- DQL Data Query Language
+- DML Data Manipulation Language
+- DCL Data Control Language
+- TCL Transaction Control Language
 
       SQL Commands
       DDL DML DQL TCL DCL
