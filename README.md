@@ -100,14 +100,22 @@ SQL is used to insert, search, update, and delete database records.
 - DCL Data Control Language
 - TCL Transaction Control Language
 
-      SQL Commands
-      DDL DML DQL TCL DCL
-      CREATE
-      DROP
-      ALTER
-      TRUNCATE
-      COMMENT
-      RENAME
+                                   +------------+
+                                   |SQL Commands|
+                                   +------+-----+
+                                          |
+                                          |
+      +------+       +-----+          +---v--+                +-----+     +-----+
+      | DDL  |-------| DML |----------|  TCL |----------------| DQL |-----| DCL |
+      +--+---+       +--+--+          +---+--+                +--+--+     +--+--+
+         +>CREATE       +->INSERT         +->BEGIN TRANSACTION   +>SELECT    +>GRANT
+         +>DROP         +->UPDATE         +->COMMIT                          +>REVOKE
+         +>ALTER        +->DELETE         +->ROLLBACK
+         +>TRUNCATE     +->CALL           +->SAVEPOINT
+         +>RENAME       +->EXPLAIN PLAN
+         +>COMMENT      +->LOCK
+
+
 
 # My-SQL
 
