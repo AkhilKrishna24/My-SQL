@@ -123,7 +123,7 @@ SQL is used to insert, search, update, and delete database records.
 - DDL Data Definition Language
   - [CREATE](./MySQL%20SQL/CREATE.md)
   - [DROP](./MySQL%20SQL/DROP.md)
-  - ALTER
+  - [ALTER](./MySQL%20SQL/ALTER.md)
   - TRUNCATE
   - RENAME
   - COMMENT
@@ -182,3 +182,7 @@ SQL is used to insert, search, update, and delete database records.
 # Auto-increment
 
 # MySQL View
+
+---
+
+[<center>**References**</center>](./MySQL%20SQL/References.md)

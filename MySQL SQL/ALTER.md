@@ -36,3 +36,5 @@
 1. ALTER USER
 
    - Change properties of an existing user (e.g., password, login options).
+
+## ALTER TABLE
