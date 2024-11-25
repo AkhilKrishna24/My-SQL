@@ -46,7 +46,7 @@ Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
 
 ## Common Database Operations (CRUD)
 
-- [Create](CREATE.md): Creating a new table or database.
+- [Create](./MySQL%20SQL/References.md): Creating a new table or database.
 - Read: Retrieving data from a table.
 - Update: Modifying existing data in a table.
 - Delete: Removing data from a table.
@@ -105,6 +105,21 @@ SQL is used to insert, search, update, and delete database records.
 
 ### SQL Commands are mainly categorized into five categories:
 
+                                 ┌────────────┐
+                                 │SQL Commands│
+                                 └──────┬─────┘
+                                        │
+                                        │
+    ┌──────┐       ┌─────┐          ┌───▼──┐                ┌─────┐     ┌─────┐
+    │ DDL  │───────│ DML │──────────│  TCL ┼────────────────┼ DQL ┼─────┼ DCL │
+    └──┼───┘       └──┼──┘          └───┼──┘                └──┼──┘     └──┼──┘
+       ┼►CREATE       ┼─►INSERT         ┼─►BEGIN TRANSACTION   └►SELECT    ┼►GRANT
+       ┼►DROP         ┼─►UPDATE         ┼─►COMMIT                          └►REVOKE
+       ┼►ALTER        ┼─►DELETE         ┼─►ROLLBACK
+       ┼►TRUNCATE     ┼─►CALL           └─►SAVEPOINT
+       ┼►RENAME       ┼─►EXPLAIN PLAN
+       └►COMMENT      └─►LOCK
+
 - DDL Data Definition Language
   - [CREATE](./CREATE.md)
   - DROP
@@ -113,24 +128,22 @@ SQL is used to insert, search, update, and delete database records.
   - RENAME
   - COMMENT
 - DQL Data Query Language
+  - SELECT
 - DML Data Manipulation Language
+  - INSERT
+  - UPDATE
+  - DELETE
+  - CALL
+  - EXPLAIN PLAN
+  - LOCK
 - DCL Data Control Language
+  - BEGIN TRANSACTION
+  - COMMIT
+  - ROLLBACK
+  - SAVEPOINT
 - TCL Transaction Control Language
-
-                                   +------------+
-                                   |SQL Commands|
-                                   +------+-----+
-                                          |
-                                          |
-      +------+       +-----+          +---v--+                +-----+     +-----+
-      | DDL  |-------| DML |----------|  TCL |----------------| DQL |-----| DCL |
-      +--+---+       +--+--+          +---+--+                +--+--+     +--+--+
-         +>CREATE       +->INSERT         +->BEGIN TRANSACTION   +>SELECT    +>GRANT
-         +>DROP         +->UPDATE         +->COMMIT                          +>REVOKE
-         +>ALTER        +->DELETE         +->ROLLBACK
-         +>TRUNCATE     +->CALL           +->SAVEPOINT
-         +>RENAME       +->EXPLAIN PLAN
-         +>COMMENT      +->LOCK
+  - GRANT
+  - REVOKE
 
 # My-SQL
 
