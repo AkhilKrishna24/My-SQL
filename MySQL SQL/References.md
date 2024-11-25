@@ -2,7 +2,7 @@
 
 - [CREATE](../CREATE.md)
 
-  - [CREATE DATABASE](../CREATE.md#create-database): Initialize a new database to store tables, views, and other objects.
+  - [CREATE DATABASE](./CREATE.md#create-database): Initialize a new database to store tables, views, and other objects.
   - CREATE TABLE: Define a new table to store structured data.
   - CREATE VIEW: Create a virtual table (view) from a query result.
   - CREATE INDEX: Optimize query performance on one or more columns.
