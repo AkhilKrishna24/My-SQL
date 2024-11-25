@@ -46,7 +46,7 @@ Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
 
 ## Common Database Operations (CRUD)
 
-- Create: Creating a new table or database.
+- [Create](CREATE.md): Creating a new table or database.
 - Read: Retrieving data from a table.
 - Update: Modifying existing data in a table.
 - Delete: Removing data from a table.
@@ -85,6 +85,17 @@ Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
       +------------------------+
 
 # DBMS (Database Management System)
+
+![Oracle ](./img/oracle-svgrepo-com.svg)
+[![MySQL](./img/mysql-logo-svgrepo-com.svg)](#my-sql)
+![Microsoft SQL Server](./img/microsoft-sql-server-logo-svgrepo-com.svg)
+![PostgreSQL](./img/postgresql-logo-svgrepo-com.svg)
+![MongoDB](./img/mongodb-ar21.svg)
+![Redis](./img/redis-logo-svgrepo-com.svg)
+![ElasticSearch](./img/Elasticsearch_logo.svg)
+![MariaDB](./img/mariadb-icon-svgrepo-com.svg)
+![DB2](./img/db2.svg)
+![SQLite](./img/sqlite-ar21.svg)
 
 A DBMS is software that manages and controls access to a database. It provides an interface between the user/application and the database, allowing data to be stored, retrieved, updated, and deleted. The DBMS handles tasks like data integrity, concurrency control, and security.
 
