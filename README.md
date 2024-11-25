@@ -121,8 +121,8 @@ SQL is used to insert, search, update, and delete database records.
        └►COMMENT      └─►LOCK
 
 - DDL Data Definition Language
-  - [CREATE](./CREATE.md)
-  - DROP
+  - [CREATE](./MySQL%20SQL/CREATE.md)
+  - [DROP](./MySQL%20SQL/DROP.md)
   - ALTER
   - TRUNCATE
   - RENAME
@@ -166,10 +166,6 @@ SQL is used to insert, search, update, and delete database records.
                                  String                Numeric            Date and Time
 
 ---
-
-## Change table [constraints](#mysql-constraints)
-
-## Adjust other table-level properties
 
 # MySQL Constraints
 
