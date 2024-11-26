@@ -185,4 +185,6 @@ SQL is used to insert, search, update, and delete database records.
 
 ---
 
-[<center>**References**</center>](./MySQL%20SQL/References.md)
+<p align="center">
+  <a href="./MySQL%20SQL/References.md"><strong>References</strong></a>
+</p>
