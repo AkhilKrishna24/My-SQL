@@ -1,6 +1,6 @@
 # Connector
 
-Install <a href="https://pypi.org/project/mysql-connector-python/ target="_blank">mysql-connector-python</a> Pakage from Pypi
+Install <a href="https://pypi.org/project/mysql-connector-python/" target="_blank">mysql-connector-python</a> Pakage from Pypi
 
 ```shell
 pip install mysql-connector-python
