@@ -11,29 +11,29 @@ A database is an organized collection of structured information or data, typical
 
 ## Types of Databases
 
-### Relational Databases (RDBMS)
+- **Relational Databases (RDBMS)**
 
-These databases store data in tables with rows and columns. They use [SQL (Structured Query Language)](#sql) for querying and managing data.
+  These databases store data in tables with rows and columns. They use [SQL (Structured Query Language)](#sql) for querying and managing data.
 
-Example: [MySQL](#my-sql), PostgreSQL, SQLite
+  Example: _[MySQL](#my-sql), PostgreSQL, SQLite_
 
-### NoSQL Databases
+- **NoSQL Databases**
 
-These are used for unstructured or semi-structured data and are more flexible than relational databases.
+  These are used for unstructured or semi-structured data and are more flexible than relational databases.
 
-Example: MongoDB, Cassandra, Redis
+  Example: _MongoDB, Cassandra, Redis_
 
-### In-Memory Databases
+- **In-Memory Databases**
 
-These store data in the system's memory (RAM) for quick access.
+  These store data in the system's memory (RAM) for quick access.
 
-Example: Redis, Memcached
+  Example: _Redis, Memcached_
 
-### Cloud Databases
+- **Cloud Databases**
 
-These databases are hosted on a cloud platform.
+  These databases are hosted on a cloud platform.
 
-Example: Amazon RDS, Google Cloud SQL, Microsoft Azure
+  Example: _Amazon RDS, Google Cloud SQL, Microsoft Azure_
 
 ## Key Concepts
 
@@ -136,12 +136,12 @@ SQL is used to insert, search, update, and delete database records.
   - CALL
   - EXPLAIN PLAN
   - LOCK
-- DCL Data Control Language
+- TCL Transaction Control Language
   - BEGIN TRANSACTION
   - COMMIT
   - ROLLBACK
   - SAVEPOINT
-- TCL Transaction Control Language
+- DCL Data Control Language
   - GRANT
   - REVOKE
 
@@ -185,6 +185,6 @@ SQL is used to insert, search, update, and delete database records.
 
 ---
 
-<p align="center">
+<p align="center" font-size="20px">
   <a href="./MySQL%20SQL/References.md"><strong>References</strong></a>
 </p>

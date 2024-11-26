@@ -1,6 +1,6 @@
 # ALTER
 
-1. ALTER TABLE
+1. [ALTER TABLE](#1-alter-table)
 
    - Add a new column.
    - Modify an existing column.
@@ -37,4 +37,10 @@
 
    - Change properties of an existing user (e.g., password, login options).
 
-## ALTER TABLE
+### 1. ALTER TABLE
+
+- **Add a new column.**
+
+## Add or remove columns
+
+## Rename columns or the tablec
