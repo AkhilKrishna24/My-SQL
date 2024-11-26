@@ -25,4 +25,4 @@ if conn.is_connected():
     print("MYSQL server is Connected Successfully....")
 else :
     print("Try Again ")
-
+conn.close()
