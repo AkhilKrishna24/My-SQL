@@ -13,7 +13,9 @@ SELECT column1, column2, ...
 FROM table_name;
 ```
 
-<center>Demo Database</center>
+<p align="center" font-size="20px">
+<strong>Demo Database</strong>
+</p>
 
 | ID  | Name           | CountryCode | District      | Population |
 | --- | -------------- | ----------- | ------------- | ---------- |
