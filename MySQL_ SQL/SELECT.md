@@ -17,6 +17,8 @@ FROM table_name;
 <strong>Demo Database</strong>
 </p>
 
+**TABLE NAME = CITY**
+
 | ID  | Name           | CountryCode | District      | Population |
 | --- | -------------- | ----------- | ------------- | ---------- |
 | 1   | Kabul          | AFG         | Kabol         | 1780000    |
@@ -29,8 +31,6 @@ FROM table_name;
 | 8   | Utrecht        | NLD         | Utrecht       | 234323     |
 | 9   | Eindhoven      | NLD         | Noord-Brabant | 201843     |
 | 10  | Tilburg        | NLD         | Noord-Brabant | 193238     |
-
-TABLE NAME = CITY
 
 ```sql
 SELECT * FROM city;
