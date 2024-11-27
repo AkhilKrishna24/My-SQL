@@ -13,7 +13,7 @@ SELECT column1, column2, ...
 FROM table_name;
 ```
 
-**<center>Demo Database</center>**
+<center>Demo Database</center>
 
 | ID  | Name           | CountryCode | District      | Population |
 | --- | -------------- | ----------- | ------------- | ---------- |
