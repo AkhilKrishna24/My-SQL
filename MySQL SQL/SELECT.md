@@ -28,7 +28,6 @@ FROM table_name;
 | 9   | Eindhoven      | NLD         | Noord-Brabant | 201843     |
 | 10  | Tilburg        | NLD         | Noord-Brabant | 193238     |
 
-n  
 TABLE NAME = CITY
 
 ```sql
@@ -72,3 +71,5 @@ OUTPUT:
         |    9 | Eindhoven                         |
         |   10 | Tilburg                           |
         +------+-----------------------------------+
+
+---

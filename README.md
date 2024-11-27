@@ -167,7 +167,7 @@ SQL is used to insert, search, update, and delete database records.
 
 ---
 
-# MySQL Constraints
+# [MySQL Constraints](./Constraints.md)
 
 |              | Description                                    |
 | ------------ | ---------------------------------------------- |

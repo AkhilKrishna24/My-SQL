@@ -1,1 +1,2 @@
-use school
+CREATE DATABASE school;
+USE school;
