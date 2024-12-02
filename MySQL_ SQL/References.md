@@ -44,7 +44,7 @@
 
 - [SELECT](./SELECT.md)
 
-- INSERT
+- [INSERT](./INSERT.md)
 
   -
 

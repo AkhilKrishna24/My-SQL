@@ -10,3 +10,17 @@
 1. DROP SEQUENCE – Deletes a sequence.
 1. DROP TRIGGER – Deletes a trigger.
 1. DROP SCHEMA – Deletes a schema.
+
+## DROP DATABASE
+
+```sql
+DROP DATABASE databasename;
+```
+
+## DROP TABLE
+
+```sql
+DROP DATABASE tablename;
+```
+
+![NOTE:](../img/danger-13.svg) **Deleting a table will loss of complete information stored in the table!**![NOTE:](../img/danger-13.svg)
